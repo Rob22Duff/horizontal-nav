@@ -5,3 +5,34 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h1 {
+  font-family: 'Bevan', cursive;
+  color: #fff;
+}
+
+
+body {
+  background-color: #dbd6cf;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  width: 6em;
+  padding: 1em;
+  background-color: #713837;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
